@@ -38,47 +38,47 @@ NBAZone, NBA oyuncularına ait istatistikleri yönetebileceğiniz modern, kullan
 ## 📁 Proje Yapısı
 
 nbazone/
-├── config
-├── dto
-│ ├── PlayerRequestDto
-│ └── PlayerResponseDto
-├── exception
-│ └── ErrorResponse
-│ └── GlobalExeptionHandler
-│ └── PlayerNotFoundExeption
-│ └── TeamNotFoundExeption
-├── mapper
-│ └── EntityMapper
-├── player
-│ └── Player
-│ └── PlayerController
-│ └── PlayerRepository
-│ └── PlayerService
-│ └── PlayerServiceImpl
-├── security
-│ └── config
-│   └── RoleInitializer
-│   └── SecurityConfig
-│ └── jwt
-│   └── AuthEntryPointJwt
-│   └── JwtAuthenticationFilter
-│   └── JwtUtils
-│ └── request
-│   └── LoginRequest
-│   └── SignupRequest
-│ └── response
-│   └── MessageResponse
-│   └── UserJwtInfoResponse
-│ └── userDetail
-│   └── CustomUserDetails
-│   └── CustomUserDetailsService
-├── user
-│ └── AppRole
-│ └── AuthController
-│ └── Role
-│ └── RoleRepository
-│ └── User
-│ └── UserRepository
+├── config                                 
+├── dto                                               
+│ └── PlayerRequestDto                                                                          
+│ └── PlayerResponseDto                                                   
+├── exception                                                          
+│ └── ErrorResponse                                                                  
+│ └── GlobalExeptionHandler                                                                      
+│ └── PlayerNotFoundExeption                                                                       
+│ └── TeamNotFoundExeption                                                                                                                                      
+├── mapper                                                               
+│ └── EntityMapper                                                         
+├── player                                                                            
+│ └── Player                                                                                
+│ └── PlayerController                                                                 
+│ └── PlayerRepository                                                                                 
+│ └── PlayerService                                                                           
+│ └── PlayerServiceImpl                                                                          
+├── security                                                                                            
+│ └── config                                                                                                         
+│   └── RoleInitializer                                                                                                
+│   └── SecurityConfig                                                                                       
+│ └── jwt                                                                                                           
+│   └── AuthEntryPointJwt                                                                                           
+│   └── JwtAuthenticationFilter                                                                              
+│   └── JwtUtils                                                                                           
+│ └── request                                                                                                                  
+│   └── LoginRequest                                                                             
+│   └── SignupRequest                                                             
+│ └── response                                                                                     
+│   └── MessageResponse                                                                          
+│   └── UserJwtInfoResponse                                                                                  
+│ └── userDetail                                                                                   
+│   └── CustomUserDetails                                                                   
+│   └── CustomUserDetailsService                                                                   
+├── user                                                                            
+│ └── AppRole                                                                                             
+│ └── AuthController                                                                       
+│ └── Role                                                                         
+│ └── RoleRepository                                                                         
+│ └── User                                                                                          
+│ └── UserRepository                                                                                              
 
 
 ## 🧪 Testler
